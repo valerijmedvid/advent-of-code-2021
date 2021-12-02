@@ -1,5 +1,6 @@
 .DS_Store
 .mypy_cache
+/venv
 
 # Editor directories and files
 .idea
