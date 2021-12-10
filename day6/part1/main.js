@@ -13,7 +13,6 @@ for (let day = 0; day <= 8; day++) {
 input.forEach((fish) => {
   days[fish] += 1
 })
-console.log(...days)
 
 for (let day = 0; day < 80; day++) {
   let newBorn = days[0]
@@ -29,7 +28,6 @@ for (let day = 0; day < 80; day++) {
   days[8] = newBorn
 }
 
-console.log(...days)
 console.log(
   days.reduce((prev, curr) => {
     return prev + curr
